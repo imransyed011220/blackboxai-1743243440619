@@ -1,0 +1,14 @@
+{
+  "name": "college-timetable",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i tailwind.css -o style.css --minify --config tailwind.config.js",
+    "dev": "npx tailwindcss -i tailwind.css -o style.css --watch --config tailwind.config.js",
+    "start": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  }
+}
