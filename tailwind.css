@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .current-period {
+        @apply bg-blue-50;
+        animation: blink 1.5s infinite;
+    }
+}
